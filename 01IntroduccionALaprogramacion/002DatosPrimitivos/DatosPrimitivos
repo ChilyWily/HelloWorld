@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+/*DATOS PRIMITIVOS*/
+
+int main()
+{
+    int entero = 18;
+    int segundoEntero = 77;
+    int tercerEntero = 11;
+    float decimal = 0.1;
+    float segundoDecimal = 0.14;
+    float tercerDecimal = 0.99;
+    char caracter = 'M';
+    char segundoCaracter = 'S';
+    char tercerCaracter = 'v';
+
+    printf("%d\n", entero);
+
+    printf("%f\n", decimal);
+
+    printf("%c\n", caracter);
+
+ printf(" %d - %d - %d \n", entero, segundoEntero, tercerEntero);
+
+ printf(" %f - %f - %f \n", decimal, segundoDecimal, tercerDecimal);
+
+ printf(" %c - %c - %c \n", caracter, segundoCaracter, tercerCaracter);
+}
